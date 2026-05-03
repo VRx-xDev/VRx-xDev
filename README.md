@@ -22,10 +22,12 @@ Sou um estudante de tecnologia focado em **Engenharia de Software** e entusiasta
 
 ### 📊 GitHub Stats
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=VRx-xDev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VRx-xDev&layout=compact&langs_count=7&theme=tokyonight"/>
+  <!-- Alternativa 1: Streak Stats (Geralmente mais estável) -->
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=VRx-xDev&theme=tokyonight&hide_border=true" />
+  
+  <!-- Alternativa 2: Top Langs usando o Mirror estável -->
+  <img height="180em" src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=VRx-xDev&layout=compact&langs_count=7&theme=tokyonight" />
 </div>
-
 ---
 
 ### 🤝 Conecte-se comigo
