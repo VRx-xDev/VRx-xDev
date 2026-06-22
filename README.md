@@ -25,14 +25,6 @@ Sou um estudante de tecnologia focado em **Engenharia de Software** e entusiasta
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=VRx-xDev&theme=tokyonight&hide_border=true" />
 </div>
 ---
-
-### 🤝 Conecte-se comigo
-<div align="left">
-  <a href="https://www.linkedin.com/in/vitor-lemes-1a01a33a7/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-</div>
----
 <p align="center">
   <i>"I am the way, the truth, and the life."</i>
 </p>
