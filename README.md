@@ -1,6 +1,6 @@
 <div align="center">
 
-# Vitor Lemes <sub>· VRx</sub>
+# Vitor Lemes
 
 ### Eng. de Software (em formação) — Python · JavaScript/Node · Foco em IA/ML
 
@@ -70,10 +70,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=VRx-xDev&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VRx-xDev&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" alt="Top Languages" height="165"/>
+<img src="https://github-stats-extended.vercel.app/api?username=VRx-xDev&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true" alt="GitHub Stats" height="165"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=VRx-xDev&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" alt="Top Languages" height="165"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=VRx-xDev&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=VRx-xDev&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub Streak" />
 
 </div>
 
@@ -115,6 +115,6 @@ Repositories being organized — coming soon.
 
 <div align="center">
 
-<sub>Porto Alegre, BR</sub>
+<sub>São Paulo, BR</sub>
 
 </div>
