@@ -58,7 +58,9 @@
 ## Projetos
 
 <!--START_SECTION:repos-->
-> Nenhum repositório público encontrado ainda.
+| Projeto | Descrição | Linguagem | ⭐ |
+|---|---|---|---|
+| [Segment-Studio/GymForUs](https://github.com/Segment-Studio/GymForUs) | — | Python | 1 |
 
 <!--END_SECTION:repos-->
 
