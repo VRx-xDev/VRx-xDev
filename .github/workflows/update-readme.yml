@@ -1,0 +1,60 @@
+name: Update Projects List
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # roda todo dia às 04:00 UTC
+  workflow_dispatch:        # permite rodar manualmente pela aba Actions
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch repos and build markdown
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          # Busca os repositórios públicos, ordenados pela última atualização
+          curl -s -H "Authorization: token $GH_TOKEN" \
+            "https://api.github.com/users/${GH_USER}/repos?sort=updated&per_page=20" \
+            > repos.json
+
+          # Monta uma tabela markdown, excluindo o próprio repo de perfil e forks
+          {
+            echo "| Projeto | Descrição | Linguagem | ⭐ |"
+            echo "|---|---|---|---|"
+            jq -r --arg user "$GH_USER" '
+              .[]
+              | select(.fork == false)
+              | select((.name | ascii_downcase) != ($user | ascii_downcase))
+              | "| [\(.name)](\(.html_url)) | \(.description // "—") | \(.language // "—") | \(.stargazers_count) |"
+            ' repos.json
+          } > projects_table.md
+
+          # Se não houver repositórios, deixa uma mensagem amigável
+          if [ $(wc -l < projects_table.md) -le 2 ]; then
+            echo "> Nenhum repositório público encontrado ainda." > projects_table.md
+          fi
+
+      - name: Inject table into README between markers
+        run: |
+          awk -v tablefile="projects_table.md" '
+            BEGIN { while ((getline line < tablefile) > 0) table = table line "\n" }
+            /<!--START_SECTION:repos-->/ { print; print table; skip=1; next }
+            /<!--END_SECTION:repos-->/ { skip=0 }
+            skip != 1 { print }
+          ' README.md > README.tmp.md && mv README.tmp.md README.md
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: atualiza lista de projetos automaticamente"
+          file_pattern: README.md
