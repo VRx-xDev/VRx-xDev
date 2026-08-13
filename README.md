@@ -58,8 +58,6 @@
 ## Projetos
 
 <!--START_SECTION:repos-->
-> Nenhum repositório público encontrado ainda.
-
 <!--END_SECTION:repos-->
 
 ## GitHub Stats
@@ -78,8 +76,6 @@
 <!--END_SECTION:snake-->
 
 </div>
-
-> Os cards acima podem demorar a preencher até você ter commits/repositórios públicos. A cobrinha (`snake`) só aparece depois de configurar o GitHub Action abaixo.
 
 ---
 
@@ -113,6 +109,12 @@
 
 ## Projects
 
-Repositories auto-listed below once published — see the main section above (the `<!--START_SECTION:repos-->` block updates automatically).
-> Nenhum repositório público encontrado ainda.
+Auto-listed above once repositories are published.
 
+</details>
+
+<div align="center">
+
+<sub>São Paulo, BR</sub>
+
+</div>
