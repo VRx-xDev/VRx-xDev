@@ -8,7 +8,7 @@
 
 <br/>
 
-[![Instagram](https://img.shields.io/badge/Instagram-%40vitor_.rl056-E4405F?style=for-the-badge&logo=instagram&logoColor=white)]
+[![Instagram](https://img.shields.io/badge/Instagram-%40vitor_.rl056-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/vitor_.rl056)
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-em%20breve-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
 
 </div>
@@ -26,9 +26,9 @@
 ## Sobre
 
 - Estudo Python há um bom tempo — hoje construo programas de organização de arquivos, simulações 3D e experimentos com IA/prompts.
-- Trabalho com JavaScript e Node.js em projetos particulares; uso HTML/CSS no front-end.
+- Trabalho com JavaScript e Node.js em projetos particulares; uso HTML/CSS no front-end quando o projeto pede.
 - Aprendendo deploy e infraestrutura web com Vercel.
-- Curioso por segurança ofensiva — estudo em ambientes controlados (VM), por interesse pessoal. Não é foco de carreira, é hobby.
+- Curioso por segurança ofensiva — estudo em ambientes controlados (VM), por interesse pessoal. Não é foco de carreira, é hobby técnico.
 - Objetivo de carreira: Engenharia de Software, com interesse crescente em IA/ML e LLMs.
 
 ## Formação em andamento
@@ -58,8 +58,8 @@
 ## Projetos
 
 <!--START_SECTION:repos-->
-> Nenhum repositório público encontrado ainda.
-
+<!-- Preenchido automaticamente pelo workflow update-readme.yml -->
+> Repositórios ainda sendo organizados — a lista abaixo é gerada automaticamente assim que houver repositórios públicos.
 <!--END_SECTION:repos-->
 
 ## GitHub Stats
@@ -114,5 +114,11 @@
 ## Projects
 
 Repositories auto-listed below once published — see the main section above (the `<!--START_SECTION:repos-->` block updates automatically).
-> Nenhum repositório público encontrado ainda.
 
+</details>
+
+<div align="center">
+
+<sub>São Paulo, BR</sub>
+
+</div>
