@@ -58,8 +58,8 @@
 ## Projetos
 
 <!--START_SECTION:repos-->
-<!-- Preenchido automaticamente pelo workflow update-readme.yml -->
-> Repositórios ainda sendo organizados — a lista abaixo é gerada automaticamente assim que houver repositórios públicos.
+> Nenhum repositório público encontrado ainda.
+
 <!--END_SECTION:repos-->
 
 ## GitHub Stats
@@ -114,11 +114,5 @@
 ## Projects
 
 Repositories auto-listed below once published — see the main section above (the `<!--START_SECTION:repos-->` block updates automatically).
+> Nenhum repositório público encontrado ainda.
 
-</details>
-
-<div align="center">
-
-<sub>São Paulo, BR</sub>
-
-</div>
