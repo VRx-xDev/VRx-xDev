@@ -58,6 +58,8 @@
 ## Projetos
 
 <!--START_SECTION:repos-->
+> Nenhum repositório público encontrado ainda.
+
 <!--END_SECTION:repos-->
 
 ## GitHub Stats
