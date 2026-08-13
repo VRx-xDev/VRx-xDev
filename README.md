@@ -53,13 +53,11 @@
 **Hobby técnico**
 
 <img src="https://skillicons.dev/icons?i=cpp&theme=dark" alt="cpp" height="40"/>
-![Offensive Security](https://img.shields.io/badge/Offensive%20Security-VM%20only-2E2E2E?style=flat-square&logo=linux&logoColor=white)
+<img src="https://img.shields.io/badge/Offensive%20Security-VM%20only-2E2E2E?style=flat-square&logo=linux&logoColor=white" alt="Offensive Security" />
 
 ## Projetos
 
 <!--START_SECTION:repos-->
-> Nenhum repositório público encontrado ainda.
-
 <!--END_SECTION:repos-->
 
 ## GitHub Stats
