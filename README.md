@@ -75,7 +75,15 @@
 
 <img src="https://streak-stats.demolab.com/?user=VRx-xDev&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub Streak" />
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=VRx-xDev&theme=tokyo-night&hide_border=true&border_radius=12&area=true" alt="Activity Graph" width="95%"/>
+
+<!--START_SECTION:snake-->
+<img src="https://raw.githubusercontent.com/VRx-xDev/VRx-xDev/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="95%"/>
+<!--END_SECTION:snake-->
+
 </div>
+
+> Os cards acima podem demorar a preencher até você ter commits/repositórios públicos. A cobrinha (`snake`) só aparece depois de configurar o GitHub Action abaixo.
 
 ---
 
