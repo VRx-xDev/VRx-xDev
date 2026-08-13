@@ -8,7 +8,7 @@
 
 <br/>
 
-[![Instagram](https://img.shields.io/badge/Instagram-%40vitor_.rl056-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/vitor_.rl056)
+[![Instagram](https://img.shields.io/badge/Instagram-%40vitor_.rl056-E4405F?style=for-the-badge&logo=instagram&logoColor=white)]
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-em%20breve-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
 
 </div>
@@ -26,9 +26,9 @@
 ## Sobre
 
 - Estudo Python há um bom tempo — hoje construo programas de organização de arquivos, simulações 3D e experimentos com IA/prompts.
-- Trabalho com JavaScript e Node.js em projetos particulares; uso HTML/CSS no front-end quando o projeto pede.
+- Trabalho com JavaScript e Node.js em projetos particulares; uso HTML/CSS no front-end.
 - Aprendendo deploy e infraestrutura web com Vercel.
-- Curioso por segurança ofensiva — estudo em ambientes controlados (VM), por interesse pessoal. Não é foco de carreira, é hobby técnico.
+- Curioso por segurança ofensiva — estudo em ambientes controlados (VM), por interesse pessoal. Não é foco de carreira, é hobby.
 - Objetivo de carreira: Engenharia de Software, com interesse crescente em IA/ML e LLMs.
 
 ## Formação em andamento
@@ -52,19 +52,15 @@
 
 **Hobby técnico**
 
+<img src="https://skillicons.dev/icons?i=cpp&theme=dark" alt="cpp" height="40"/>
 ![Offensive Security](https://img.shields.io/badge/Offensive%20Security-VM%20only-2E2E2E?style=flat-square&logo=linux&logoColor=white)
 
 ## Projetos
 
-> Repositórios em organização — em breve por aqui.
-
-<div align="center">
-
-| 🗂️ Organização de arquivos | 🧊 Simulação 3D | 🤖 Experimentos IA |
-|:---:|:---:|:---:|
-| *em breve* | *em breve* | *em breve* |
-
-</div>
+<!--START_SECTION:repos-->
+<!-- Preenchido automaticamente pelo workflow update-readme.yml -->
+> Repositórios ainda sendo organizados — a lista abaixo é gerada automaticamente assim que houver repositórios públicos.
+<!--END_SECTION:repos-->
 
 ## GitHub Stats
 
@@ -117,7 +113,7 @@
 
 ## Projects
 
-Repositories being organized — coming soon.
+Repositories auto-listed below once published — see the main section above (the `<!--START_SECTION:repos-->` block updates automatically).
 
 </details>
 
