@@ -21,21 +21,35 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
+          GH_ORGS: "Segment-Studio"   # adicione outras orgs separadas por espaço, ex: "Segment-Studio OutraOrg"
         run: |
-          # Busca os repositórios públicos, ordenados pela última atualização
+          # Busca os repositórios públicos pessoais, ordenados pela última atualização
           curl -s -H "Authorization: token $GH_TOKEN" \
             "https://api.github.com/users/${GH_USER}/repos?sort=updated&per_page=20" \
-            > repos.json
+            > repos_user.json
 
-          # Monta uma tabela markdown, excluindo o próprio repo de perfil e forks
+          # Busca os repositórios públicos de cada organização listada
+          echo "[]" > repos_orgs.json
+          for ORG in $GH_ORGS; do
+            curl -s -H "Authorization: token $GH_TOKEN" \
+              "https://api.github.com/orgs/${ORG}/repos?sort=updated&per_page=20" \
+              > repos_org_tmp.json
+            jq -s '.[0] + .[1]' repos_orgs.json repos_org_tmp.json > repos_orgs_merged.json
+            mv repos_orgs_merged.json repos_orgs.json
+          done
+
+          # Junta pessoais + organizações num único arquivo
+          jq -s '.[0] + .[1]' repos_user.json repos_orgs.json > repos.json
+
+          # Monta uma tabela markdown, excluindo o próprio repo de perfil, forks e duplicados
           {
             echo "| Projeto | Descrição | Linguagem | ⭐ |"
             echo "|---|---|---|---|"
             jq -r --arg user "$GH_USER" '
-              .[]
-              | select(.fork == false)
-              | select((.name | ascii_downcase) != ($user | ascii_downcase))
-              | "| [\(.name)](\(.html_url)) | \(.description // "—") | \(.language // "—") | \(.stargazers_count) |"
+              [.[] | select(.fork == false) | select((.name | ascii_downcase) != ($user | ascii_downcase))]
+              | unique_by(.full_name)
+              | .[]
+              | "| [\(.full_name)](\(.html_url)) | \(.description // "—") | \(.language // "—") | \(.stargazers_count) |"
             ' repos.json
           } > projects_table.md
 
