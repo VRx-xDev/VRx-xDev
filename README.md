@@ -26,9 +26,9 @@
 ## Sobre
 
 - Estudo Python há um bom tempo — hoje construo programas de organização de arquivos, simulações 3D e experimentos com IA/prompts.
-- Trabalho com JavaScript e Node.js em projetos particulares; uso HTML/CSS no front-end quando o projeto pede.
+- Trabalho com JavaScript e Node.js em projetos particulares; uso HTML/CSS no front-end.
 - Aprendendo deploy e infraestrutura web com Vercel.
-- Curioso por segurança ofensiva — estudo em ambientes controlados (VM), por interesse pessoal. Não é foco de carreira, é hobby técnico.
+- Curioso por segurança ofensiva — estudo em ambientes controlados (VM), por interesse pessoal. Não é foco de carreira, é mais um hobby.
 - Objetivo de carreira: Engenharia de Software, com interesse crescente em IA/ML e LLMs.
 
 ## Formação em andamento
